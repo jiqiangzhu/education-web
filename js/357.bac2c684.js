@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkeducation_web"]=self["webpackChunkeducation_web"]||[]).push([[357],{357:function(n,e,t){t.r(e),t.d(e,{default:function(){return f}});var s=function(){var n=this;n._self._c;return n._m(0)},u=[function(){var n=this,e=n._self._c;return e("div",{staticClass:"settings-container"},[e("h1",[n._v("系统设置")]),e("p",[n._v("系统设置功能开发中...")])])}],a={name:"SettingsManagement"},i=a,c=t(1656),r=(0,c.A)(i,s,u,!1,null,"ffae1fd6",null),f=r.exports}}]);
+//# sourceMappingURL=357.bac2c684.js.map

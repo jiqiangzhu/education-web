@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkeducation_web"]=self["webpackChunkeducation_web"]||[]).push([[506],{7506:function(n,e,t){t.r(e),t.d(e,{default:function(){return l}});var a=function(){var n=this;n._self._c;return n._m(0)},u=[function(){var n=this,e=n._self._c;return e("div",{staticClass:"marketing-container"},[e("h1",[n._v("营销管理")]),e("p",[n._v("营销管理功能开发中...")])])}],r={name:"MarketingManagement"},c=r,i=t(1656),s=(0,i.A)(c,a,u,!1,null,"2cb09349",null),l=s.exports}}]);
+//# sourceMappingURL=506.ab9d7e2e.js.map
