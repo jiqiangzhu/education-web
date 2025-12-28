@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunkeducation_web"]=self["webpackChunkeducation_web"]||[]).push([[741],{5741:function(e,n,t){t.r(n),t.d(n,{default:function(){return l}});var u=function(){var e=this;e._self._c;return e._m(0)},r=[function(){var e=this,n=e._self._c;return n("div",{staticClass:"course-container"},[n("h1",[e._v("课程管理")]),n("p",[e._v("课程管理功能开发中...")])])}],s={name:"CourseManagement"},a=s,c=t(1656),i=(0,c.A)(a,u,r,!1,null,"2d4e9db6",null),l=i.exports}}]);
-//# sourceMappingURL=741.61abb244.js.map
