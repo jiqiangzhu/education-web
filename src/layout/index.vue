@@ -32,10 +32,21 @@
             <span>讲师管理</span>
           </el-menu-item>
         </el-submenu>
-        <el-menu-item index="/course">
-          <i class="el-icon-notebook-2"></i>
-          <span>课程管理</span>
-        </el-menu-item>
+        <el-submenu index="course">
+          <template slot="title">
+            <i class="el-icon-notebook-2"></i>
+            <span>课程管理</span>
+          </template>
+          <el-menu-item index="/course/video">
+            <span>视频课程</span>
+          </el-menu-item>
+          <el-menu-item index="/course/live">
+            <span>直播课程</span>
+          </el-menu-item>
+          <el-menu-item index="/course/audio">
+            <span>音频课程</span>
+          </el-menu-item>
+        </el-submenu>
         <el-menu-item index="/marketing">
           <i class="el-icon-s-promotion"></i>
           <span>营销管理</span>

@@ -29,10 +29,22 @@ const routes = [
         meta: { title: '讲师管理' }
       },
       {
-        path: 'course',
-        name: 'Course',
-        component: () => import('@/views/course/index.vue'),
-        meta: { title: '课程管理' }
+        path: 'course/video',
+        name: 'CourseVideo',
+        component: () => import('@/views/course/video.vue'),
+        meta: { title: '视频课程' }
+      },
+      {
+        path: 'course/live',
+        name: 'CourseLive',
+        component: () => import('@/views/course/live.vue'),
+        meta: { title: '直播课程' }
+      },
+      {
+        path: 'course/audio',
+        name: 'CourseAudio',
+        component: () => import('@/views/course/audio.vue'),
+        meta: { title: '音频课程' }
       },
       {
         path: 'marketing',
