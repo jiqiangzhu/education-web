@@ -31,6 +31,16 @@
             </el-select>
           </div>
           <div class="filter-item">
+            <label>其他:</label>
+            <el-input
+              v-model="filters.keyword"
+              placeholder="请输入姓名/手机号/微信筛选"
+              style="width: 300px"
+            />
+          </div>
+        </div>
+        <div class="filter-row">
+          <div class="filter-item">
             <label>时间:</label>
             <el-date-picker
               v-model="filters.dateRange"
@@ -41,8 +51,6 @@
               style="width: 300px"
             />
           </div>
-        </div>
-        <div class="filter-row">
           <div class="quick-date">
             <el-button
               v-for="item in quickDates"
@@ -54,20 +62,10 @@
               {{ item.label }}
             </el-button>
           </div>
-        </div>
-        <div class="filter-row">
-          <div class="filter-item">
-            <label>其他:</label>
-            <el-input
-              v-model="filters.keyword"
-              placeholder="请输入姓名/手机号/微信筛选"
-              style="width: 300px"
-            />
+          <div class="filter-actions">
+            <el-button type="primary" @click="handleQuery">查询</el-button>
+            <el-button @click="handleReset">重置</el-button>
           </div>
-        </div>
-        <div class="filter-actions">
-          <el-button type="primary" @click="handleQuery">查询</el-button>
-          <el-button @click="handleReset">重置</el-button>
         </div>
       </div>
     </div>
@@ -377,6 +375,7 @@ export default {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  flex-wrap: wrap;
 }
 
 .filter-row:last-child {
@@ -399,12 +398,13 @@ export default {
 .quick-date {
   display: flex;
   gap: 8px;
+  margin-left: 20px;
 }
 
 .filter-actions {
-  margin-top: 16px;
   display: flex;
   gap: 12px;
+  margin-left: auto;
 }
 
 .section-header {
